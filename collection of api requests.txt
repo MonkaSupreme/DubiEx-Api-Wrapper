@@ -1,0 +1,13 @@
+get tradable markets on dubiex
+https://api.dubiex.com/api/markets?limit=50
+https://api.dubiex.com/api/markets?limit=[limit]
+
+get history of specific market
+https://api.dubiex.com/api/pairs/timeframe/min1/1521210327482/1522075837821/0x7641b2Ca9DDD58adDf6e3381c1F994Aac5f1A32f/0x0000000000000000000000000000000000000000/
+
+https://api.dubiex.com/api/pairs/timeframe/[timeframe]/[starttime]/[endtime]/[pairA]/[pairB]/
+
+get orders for specific pair
+https://api.dubiex.com/api/orders/status/query/all/0x7641b2Ca9DDD58adDf6e3381c1F994Aac5f1A32f/0x0000000000000000000000000000000000000000?limit=50&page=1&nonzero=true
+
+https://api.dubiex.com/api/orders/status/query/all/[pairA]/[pairB]?limit=[limit]&page=[pageNumber]&nonzero=[nonZeroBool]
